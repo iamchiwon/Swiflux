@@ -33,24 +33,24 @@ pod "Swiflux"
 
 ## Example
 
-### Import library
+### 1. Import library
 ```swift
 import Swiflux
 ```
 
-### Build Store class
-1. extends StoreBase
+### 2. Write Store class
+i. extends StoreBase
 ```swift
 class UserStore: StoreBase
 ```
-2. Override some (optional)
+ii. Override some (optional)
 ```swift
 override func buildDefaultState() {
 }
 override func bindEvents() {
 }
 ```
-3. Subscribe Action and change state
+iii. Subscribe Action and change state
 * state : a data that store has. changing of state will be broadcast to views who subscribe.
 ```swift
 class UserStore: StoreBase {
@@ -88,7 +88,7 @@ class UserStore: StoreBase {
 }
 ```
 
-### Bind Store with View
+### 3. Bind Store with View
 ```swift
 let userStore = UserStore()
 
@@ -99,7 +99,7 @@ userStore.on("greeting") { greet in
 }
 ```
 
-### Send Action events to Dispatcher
+### 4. Send Action events to Dispatcher
 ```swift
 //Send Action Event
 Dispatcher.shared().send("app:greeting", props: [
@@ -108,7 +108,7 @@ Dispatcher.shared().send("app:greeting", props: [
 ])
 ```
 
-#### Refer [Example source](./Example) code
+#### Refer [Example source](./Example/Swiflux) code
 
 ## Author
 

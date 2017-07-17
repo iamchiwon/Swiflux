@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Minimal flux library for swift
+Swiflux is minimal library for swift that according to flux concept.
                        DESC
 
   s.homepage         = 'https://github.com/iamchiwon/Swiflux'
