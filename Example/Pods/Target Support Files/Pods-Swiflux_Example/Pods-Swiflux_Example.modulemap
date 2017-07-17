@@ -1,0 +1,6 @@
+framework module Pods_Swiflux_Example {
+  umbrella header "Pods-Swiflux_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

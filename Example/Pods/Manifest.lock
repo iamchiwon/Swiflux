@@ -1,0 +1,19 @@
+PODS:
+  - RxSwift (3.5.0)
+  - Swiflux (0.1.0):
+    - RxSwift
+
+DEPENDENCIES:
+  - Swiflux (from `../`)
+
+EXTERNAL SOURCES:
+  Swiflux:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RxSwift: 18ee9d78b45edb3b0b7e79916b47a116e6dbc842
+  Swiflux: f09e4f4f2eb5c42362e4d3b410c4ff8bd61ceb20
+
+PODFILE CHECKSUM: 4c06c408484e28f0a4e0aeefa680c57af6d2159a
+
+COCOAPODS: 1.2.1
