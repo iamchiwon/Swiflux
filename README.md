@@ -27,7 +27,9 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "Swiflux"
 ```
-**Requirements** : RxSwift (> 3.x)
+**Requirements**
+- RxSwift 3.x (or higher)
+- Swift 3.x (or higher)
 
 ## Example
 
